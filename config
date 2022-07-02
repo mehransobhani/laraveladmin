@@ -1,0 +1,20 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://HadiHosseinpour@bitbucket.org/HadiHosseinpour/honarishopadminbackend.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "upstream"]
+	url = git@gitlab.honari.com:amir/shop2adminback.git
+	fetch = +refs/heads/*:refs/remotes/upstream/*
+[remote "temp"]
+	url = https://hnr_tmp_gt@bitbucket.org/hnr_tmp_gt/new_shop_admin_backend_laravel.git
+	fetch = +refs/heads/*:refs/remotes/temp/*
+[remote "mehranadmingit"]
+	url = https://github.com/mehransobhani/adminlaravel
+	fetch = +refs/heads/*:refs/remotes/mehranadmingit/*
+[remote "mehranreactgit"]
+	url = https://github.com/mehransobhani/laraveladmin
+	fetch = +refs/heads/*:refs/remotes/mehranreactgit/*
